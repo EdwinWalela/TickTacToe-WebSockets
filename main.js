@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const socket = require('socket.io')
-const port = 3000;
+const port = process.env.PORT || 3000;
 let players = [];
 
 app.use("/", express.static(__dirname+'/public'));
@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     res.sendFile(__dirname+'/public/index.html')
 })
 
-const server = app.listen(port || 'localhost' || '192.168.0.28',()=>console.log(`listening to port ${port}`));
+const server = app.listen(port,()=>console.log(`listening to port ${port}`));
 const io = socket(server);
 
 io.on('connection',(socket)=>{
