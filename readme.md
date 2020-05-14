@@ -5,6 +5,11 @@
 2. Head over to the projcet [link](https://xno-sockets.herokuapp.com) on each tab
 3. Click on an empty box to play
 
+## To Run Locally
+1. Clone project
+2. Update socket URI in ```./public/main.js``` to ```localhost:3000```
+3. Run ```npm start```
+
 ## TODO
 
 [ ] Prevent multiple plays by a singe player
