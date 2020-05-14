@@ -7,15 +7,15 @@
 
 ## To Run Locally
 1. Clone project
-2. Update socket URI in ```./public/main.js``` to ```localhost:3000```
+2. Update socket URI in ```./public/app.js``` to ```localhost:3000```
 3. Run ```npm start```
 
 ## TODO
 
-[] Prevent multiple plays by a singe player
+- [ ] Prevent multiple plays by a singe player
 
-[] Determine round winner
+- [ ] Determine round winner
 
-[] Separate game sessions
+- [ ] Separate game sessions
 
-[] Improve UI  
+- [ ] Improve UI  
