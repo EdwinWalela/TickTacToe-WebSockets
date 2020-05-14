@@ -12,8 +12,10 @@
 
 ## TODO
 
-[ ] Prevent multiple plays by a singe player
+[] Prevent multiple plays by a singe player
 
-[ ] Determine round winner
+[] Determine round winner
 
-[ ] Improve UI  
+[] Separate game sessions
+
+[] Improve UI  
