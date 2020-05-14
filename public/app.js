@@ -1,4 +1,4 @@
-let socket = io.connect('http://localhost:3000');
+let socket = io.connect('https://xno-sockets.herokuapp.com/');
 $(document).ready(function(){
     let player = $('#player');
     
